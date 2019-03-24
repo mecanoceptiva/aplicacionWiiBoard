@@ -21,3 +21,10 @@ La visualización de los pesos y el movimeinto del centro de gravedad se ha util
 
 La instalación de las librerías y su programación está basada en el Trabajo Fin de Carrera (TFC) de [Carlos Pastor Herrán](http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:PFC:Wii-applications) y ha sido actualizada a la versión de [Python 3.x](https://www.python.org/).
 
+A partir de aquí, para grafiar el movimiento del CG con los datos captados de los sensores de fuerza se a añadido el código en Python utilizando la librería **matplotlib**, dando como resultado gráficas de este tipo.
+
+![grafica_CG](https://github.com/mecanoceptiva/aplicacionWiiBoard/blob/master/scr/img/05_GraficaCG.png)
+
+[El código de la aplicación a fecha marzo 2019](https://github.com/mecanoceptiva/aplicacionWiiBoard/blob/master/scr/wiiBoard_fich_v1.2.py).
+
+Marzo 2019. Manuel Hidalgo
