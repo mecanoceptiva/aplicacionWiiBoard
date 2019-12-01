@@ -10,8 +10,8 @@ mypy = "*"
 
 [packages]
 cwiid = "*"
-pygame = "*"
 matplotlib = "*"
+paho-mqtt = "*"
 
 [requires]
 python_version = "3.8"
