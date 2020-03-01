@@ -79,7 +79,7 @@ while intentos < 3 and not ok:
 
 # Si se superan el numero de intentos, terminar
 if intentos == 3:
-    print("Sin conexion con Wii Board, intentos de conexión: {}".format(intentos))
+    print(f"Sin conexion con Wii Board, intentos de conexión: {intentos}")
     sys.exit(-1)
 
 # Conexion establecida
@@ -198,10 +198,12 @@ try:
                     view_peso = True
 
             screen.blit(fondo, fondorect)
-            text_bateria = font.render(str(estado_bateria(wiimote.state)), True, black)
+            text_bateria = font.render(
+                str(estado_bateria(wiimote.state)), True, black)
             screen.blit(text_bateria, (75, 242))
 
-            text_crono = font.render("Crono: %d segundos." % time1, True, black)
+            text_crono = font.render(
+                "Crono: %d segundos." % time1, True, black)
             screen.blit(text_crono, (150, 242))
 
             if view_peso:
