@@ -12,6 +12,7 @@ mypy = "*"
 cwiid = "*"
 matplotlib = "*"
 paho-mqtt = "*"
+pygame = "*"
 
 [requires]
 python_version = "3.7"
