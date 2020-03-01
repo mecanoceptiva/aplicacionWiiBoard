@@ -1,0 +1,1 @@
+from .wiiboard import WiiBoard
