@@ -4,6 +4,7 @@ BROKER_URL = 'localhost'
 BROKER_PORT = 1883
 TOPIC = '/wiiboard'
 
+
 # Funcion que se ejecuta al conectarse al broker MQTT
 def conectado_al_broker(client, userdata, flags, rc):
     print('Conectado con resultado {}'.format(str(rc)))
